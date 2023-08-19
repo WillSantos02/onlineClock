@@ -153,8 +153,6 @@ nav {
 h1 {
   font-size: 48px;
   font-weight: 500;
-  margin-left: 454px;
-  margin-right: 454px;
 }
 
 .bi {
