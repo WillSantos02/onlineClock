@@ -1,0 +1,91 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-royalblue: #4675E1;
+  --vt-c-black: #000000;
+
+  --vt-c-white: #D9D9D9;
+  --vt-c-white-soft: #C0C0C0; 
+  --vt-c-white-mute: rgba(217,217,217, 0.80); 
+  --vt-c-divider-light-1: var(--vt-c-black);
+  --vt-c-divider-light-2: #313131;
+  --vt-c-text-light-1: var(--vt-c-black);
+  --vt-c-text-light-2: rgba(13, 13, 13, 0.80);
+  
+  --vt-c-darkblue: #0E1525;
+  --vt-c-darkblue-soft: #2F384E;
+  --vt-c-darkblue-mute: rgba(14, 21, 37, .80);
+  --vt-c-divider-dark-1: rgba(255, 255, 255, 0.29);
+  --vt-c-divider-dark-2: #99A9CF;
+  --vt-c-text-dark-1: #B3C5EF;
+  --vt-c-text-dark-2: rgba(179, 197, 239, 0.80);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-card: var(--vt-c-white-soft);
+  --color-background-dropdown: var(--vt-c-white-soft);
+  --color-background-dropdown-item-hover: var(--vt-c-divider-light-2);
+
+  --color-border: var(--vt-c-divider-light-1);
+  --color-icon: var(--vt-c-text-light-2);
+  --color-icon-hover: var(--vt-c-white-soft);
+  --color-icon-dropdown-hover: var(--vt-c-white-mute);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1); 
+  --color-text-dropdown-hover: var(--vt-c-white);
+}
+
+.dark-mode {
+  --color-background: var(--vt-c-darkblue);
+  --color-background-card: var(--vt-c-darkblue-soft);
+  --color-background-dropdown: var(--vt-c-darkblue-soft);
+  --color-background-dropdown-item-hover: var(--vt-c-divider-dark-2);
+
+  --color-border: var(--vt-c-divider-dark-1);
+  --color-icon: var(--vt-c-text-dark-2);
+  --color-icon-hover: var(--vt-c-darkblue-soft);
+  --color-icon-dropdown-hover: var(--vt-c-darkblue-mute);
+
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-1); 
+  --color-text-dropdown-hover: var(--vt-c-darkblue);
+}
+
+@media (prefers-color-scheme: root) {
+  :root {
+    --color-background: var(--vt-c-darkblue);
+    --color-background-card: var(--vt-c-darkblue-soft);
+    --color-background-dropdown: var(--vt-c-darkblue-soft);
+    --color-background-dropdown-item-hover: var(--vt-c-divider-dark-2);
+
+    --color-border: var(--vt-c-divider-dark-1);
+    --color-icon: var(--vt-c-text-dark-2);
+    --color-icon-hover: var(--vt-c-darkblue-soft);
+    --color-icon-dropdown-hover: var(--vt-c-darkblue-mute);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-1); 
+    --color-text-dropdown-hover: var(--vt-c-darkblue);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

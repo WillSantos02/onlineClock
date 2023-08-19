@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "brasilIconBtn",
+      "iconClass": "fi fi-br",
+      "label": "UTC-3 (Hora de Brasília - BRT)"
+    },
+    {
+      "id": "universalIconBtn",
+      "iconClass": "fi fi-un",
+      "label": "UTC (Tempo Universal Coordenado)"
+    },
+    {
+      "id": "pacificIconBtn",
+      "iconClass": "fi fi-us",
+      "label": "UTC-8 (Pacífico Standard Time - PST)"
+    },
+    {
+      "id": "easternIconBtn",
+      "iconClass": "fi fi-us",
+      "label": "UTC-5 (Eastern Standard Time - EST)"
+    },
+    {
+      "id": "europeIconBtn",
+      "iconClass": "fi fi-eu",
+      "label": "UTC+1 (Hora da Europa Central - CET)"
+    },
+    {
+      "id": "easterneuropeIconBtn",
+      "iconClass": "fi fi-gr",
+      "label": "UTC+3 (Hora da Europa Oriental - EET)"
+    },
+    {
+      "id": "chinaIconBtn",
+      "iconClass": "fi fi-cn",
+      "label": "UTC+8 (China Standard Time - CST)"
+    },
+    {
+      "id": "japanIconBtn",
+      "iconClass": "fi fi-jp",
+      "label": "UTC+9 (Japan Standard Time - JST)"
+    },
+    {
+      "id": "australiaIconBtn",
+      "iconClass": "fi fi-au",
+      "label": "UTC+10 (Austrália Oriental Standard Time - AEST)"
+    },
+    {
+      "id": "atlanticIconBtn",
+      "iconClass": "fi fi-pr",
+      "label": "UTC-4 (Hora Padrão do Atlântico - AST)"
+    }
+  ]
+}
